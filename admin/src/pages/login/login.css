@@ -1,0 +1,65 @@
+.login_container {
+    flex: 4;
+    display: flex;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.login_wrapper {
+    width: 30%;
+    padding: 20px;
+    /*Giving a maring right it might harm responsive */
+    margin-left: 20rem; 
+    background-color: white;
+}
+
+.login_wrapper p {
+    margin: 20px 0px;
+    color: red;
+    font-size: 16px;
+}
+
+.login_title {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.login_form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login_input {
+    flex: 1;
+    min-width: 40%;
+    margin: 10px 0px;
+    padding: 10px;
+    outline: none;
+}
+
+.login_button {
+    width: 40%;
+    border: none;
+    padding: 15px 20px;
+    background-color: rgb(5, 141, 73);
+    color: white;
+    cursor: pointer;
+    margin: 20px 0px;
+}
+
+.login_button :disabled{
+    cursor: not-allowed;
+}
+
+.login_links{
+    font-size: 14px;
+}
+
+
+.login_links a{
+    text-decoration: none;
+    font-size: 15px;
+    color:blue;
+    font-weight: 600;
+    text-decoration: underline;
+}
